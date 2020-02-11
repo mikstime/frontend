@@ -1,0 +1,42 @@
+#button1, #button2 {
+    display: block;
+    width : 25vw;
+    height: 25vw;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    line-height: 25vw;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+}
+#button2 {
+    z-index: 2;
+    top : 37.5%;
+    left: 12.5vw;
+    background: white;
+    color : black;
+}
+#button1 {
+    top: 37.5%;
+    right: 12.5vw;
+    background: black;
+    color: white;
+}
+#mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 50%;
+    bottom: 0;
+    background: black;
+}
+#holder {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    right: 0%;
+    bottom: 0;
+    background: white;
+}
